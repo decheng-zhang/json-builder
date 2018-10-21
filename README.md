@@ -4,7 +4,7 @@ A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/b
 
 ## Where can I see it in action?
 
-It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Builder/).
+It's hosted on github pages [here](https://qrafzv.github.io/nunaliit-gui-bootstraper/).
 
 ### Notes
 
