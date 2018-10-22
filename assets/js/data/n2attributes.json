@@ -9,7 +9,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -29,7 +29,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -54,7 +54,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -82,7 +82,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -102,7 +102,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -130,7 +130,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -220,7 +220,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -266,7 +266,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -286,7 +286,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -306,7 +306,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -326,7 +326,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -346,7 +346,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -366,7 +366,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -386,7 +386,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -406,7 +406,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {
@@ -426,7 +426,7 @@
       },
       "n2id": {
         "label": "Id",
-        "type": "string",
+        "type": "input",
         "value": null
       },
       "label": {

@@ -22,7 +22,7 @@ define([
     , appendSchemaListFromOneDb: function(Dbname){
 
 
-            $.couch.urlPrefix = "http://localhost:5984"
+            $.couch.urlPrefix = "http://134.117.194.229:5984"
             $.couch.db(Dbname).view("atlas/schemas", {
               success:function(data){
                 if( typeof data["rows"] === 'undefined'
@@ -64,7 +64,7 @@ define([
 
        var that = this;
        $("ul.dropdown-menu#dropdown-menu-for-schemas").empty()
-       $.couch.urlPrefix = "http://localhost:5984"
+       $.couch.urlPrefix = "http://134.117.194.229:5984"
        $.couch.allDbs({
          success: function(data) {
            data = data || {}

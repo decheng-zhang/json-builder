@@ -69,7 +69,7 @@ define([
           });
 
           if(typeof valmatch["needExtra"] !=="undefined" && valmatch["needExtra"]) {
-            fields["customField"]["value"] = value.substring(value.indexOf("\<")+1, value.lastIndexOf("\>"))
+            fields["customField"]["value"] = value.substring(value.indexOf("(")+2, value.lastIndexOf(")")-1)
           }
           fields[name]["value"] = valarr;
           this.set("fields", fields);

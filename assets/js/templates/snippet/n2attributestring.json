@@ -1,4 +1,4 @@
     "type" : "<%- type %>"
-    ,"label" : "<%- label %>"
+    ,"label" : "<%= label %>"
     ,"id" : "<%- id %>"<% if (placeholder && placeholder !== "") { %>
-    ,"placeholder" : "<%- placeholder %>"<%}%>
+    ,"placeholder" : "<%= placeholder %>"<%}%>

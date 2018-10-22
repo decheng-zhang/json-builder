@@ -1,4 +1,4 @@
     "type" : "<%- type %>"
     ,"id"  : "<%- id %>"
-    ,"label" : "<%- label %>"
+    ,"label" : "<%= label %>"
     ,"elementType" : "<%- elementType %>"
