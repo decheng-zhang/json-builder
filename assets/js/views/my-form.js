@@ -26,6 +26,13 @@ define([
           event.preventDefault();
         //that.collection.readRapeSnippets();
       });
+      $("a.schema-sync-button").on("click", function(event){
+          event.preventDefault();
+	  var jsonFromTextarea = $("#render").val()
+	  var jsonFromTextareaJson = JSON.parse(jsonFromTextarea);
+          that.collection.readRapeSnippets(jsonFromTextareaJson);
+      });
+      
       this.render();
 
     }

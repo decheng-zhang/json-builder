@@ -212,3 +212,7 @@ form .popover form {
  overflow: hidden;
  margin-right: 20px;
 }
+
+div.div-sync-button{
+    margin-top: 20px;
+}
