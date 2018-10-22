@@ -72,7 +72,7 @@ define([
 	      return $(e).attr("json-content")}).join("\n"),
 	  attributestext: _.map( partitedEleAttribute,
 	      function(e){
-        	  return " {\n" + $(e).attr("json-content").replace(/^/gm, '        ')+ "}"}).join()
+        	  return "     {\n" + $(e).attr("json-content").replace(/^/gm, '        ')+ "}"}).join()
       }
 			));
       this.$el.appendTo("#build form");

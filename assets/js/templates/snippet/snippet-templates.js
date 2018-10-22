@@ -20,6 +20,10 @@ define(function(require) {
     , n2attributecheckboxgrouphtml = require('text!templates/snippet/n2attributecheckboxgroup.html')
     , n2attributearray = require('text!templates/snippet/n2attributearray.json')
     , n2attributearrayhtml = require('text!templates/snippet/n2attributearray.html')
+    , n2attributegeometry = require('text!templates/snippet/n2attributegeometry.json')
+    , n2attributecreatedby = require('text!templates/snippet/n2attributecreatedby.json')
+    , n2attributecreatedtime = require('text!templates/snippet/n2attributecreatedtime.json')
+    , n2attributehoversound = require('text!templates/snippet/n2attributehoversound.json')
   return {
       formname                   : formname
       , n2attributedefault : n2attributedefault
@@ -40,5 +44,10 @@ define(function(require) {
       , n2attributecheckboxgrouphtml : n2attributecheckboxgrouphtml
       , n2attributearray : n2attributearray+ n2attributeboolean
       , n2attributearrayhtml : n2attributearrayhtml
+      , n2attributegeometry : n2attributegeometry + n2attributeboolean
+      , n2attributecreatedby : n2attributecreatedby + n2attributeboolean
+      , n2attributecreatedtime : n2attributecreatedtime + n2attributeboolean
+      , n2attributehoversound : n2attributehoversound + n2attributeboolean
+
   }
 });
