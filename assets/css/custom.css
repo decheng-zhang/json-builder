@@ -33,7 +33,7 @@ body {
 .component{
   max-width: 480px;
   display: block;
-  
+
   position: relative;
   height: 100%;
   padding: 20px;
@@ -65,10 +65,15 @@ body {
   transition: all 0.3s;
   transform: translateZ(10px);
 }
+div.popover-content div.tab-content {
+    overflow-y: auto;
+    height: auto;
+
+}
 
 .tab-content {
     overflow-y: auto;
-    height : 629px;
+    height: 629px;
 }
 
 #target fieldset {
