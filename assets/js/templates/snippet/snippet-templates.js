@@ -1,7 +1,7 @@
 define(function(require) {
 
-    var formname               = require('text!templates/snippet/formname.html')
-    , n2attributeboolean = require('text!templates/snippet/n2attributeboolean.json')
+   
+    var  n2attributeboolean = require('text!templates/snippet/n2attributeboolean.json')
     , n2attributedefault = require('text!templates/snippet/n2attributedefault.json')
     , n2attributedefaulthtml = require('text!templates/snippet/n2attributedefault.html')
     , n2mandatory               = require('text!templates/snippet/n2schemamandatory.json')
@@ -25,8 +25,8 @@ define(function(require) {
     , n2attributecreatedtime = require('text!templates/snippet/n2attributecreatedtime.json')
     , n2attributehoversound = require('text!templates/snippet/n2attributehoversound.json')
   return {
-      formname                   : formname
-      , n2attributedefault : n2attributedefault
+      
+      n2attributedefault : n2attributedefault
       , n2attributedefaulthtml: n2attributedefaulthtml
       , n2schemainfo        : n2mandatory
       , n2schemainfohtml    : n2mandatoryhtml

@@ -5,16 +5,14 @@ define([
     , "views/my-form-snippet"
     , "text!data/n2attributeboolean.json"
     , "text!data/n2.json" , "text!data/n2attributes.json"
-   , "text!data/testrape.json"
-], function(
+  ], function(
   $, _, Backbone, Waitingfor
   , SnippetModel
   , SnippetsCollection
     , MyFormSnippetView
     , n2AttrBoolean
     ,n2mandatoryJSON , attributesJSON
-    , testRape
-){
+  ){
   return SnippetsCollection.extend({
     model: SnippetModel
     , initialize: function() {

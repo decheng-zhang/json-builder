@@ -1,19 +1,17 @@
 define([
-    "jquery" , "underscore" , "backbone", "jquery.couch", "nunaliit2-debug-il"
+    "jquery" , "underscore" , "backbone", "jquery.couch"
        , "collections/snippets" , "collections/my-form-snippets"
        , "views/tab" , "views/my-form"
     , "text!data/n2.json", "text!data/n2attributes.json"
     , "text!templates/app/render.html", "text!templates/app/about.html"
     , "text!templates/app/loading.html"
-    , "text!data/testrape.json"
-], function(
-    $, _, Backbone, Couch, nunaliit2
+   ], function(
+    $, _, Backbone, Couch
   , SnippetsCollection, MyFormSnippetsCollection
     , TabView, MyFormView
     , n2mandatoryJSON,  attributesJSON
     , renderTab, aboutTab, loadingTab
-    , testRape
-){
+   ){
   return {
     initialize: function(){
 
