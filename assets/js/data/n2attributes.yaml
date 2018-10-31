@@ -7,7 +7,7 @@
       value  : title
     n2id:
       label : Id
-      type : input
+      type : string
       value :
     label:
       label : Label
@@ -22,7 +22,7 @@
       value  : string
     n2id:
       label : Id
-      type : input
+      type : string
       value :
     label:
       label : Label
@@ -41,7 +41,7 @@
       value : selection
     n2id:
       label : Id
-      type  : input
+      type  : string
       value :
     label:
       label : Label
@@ -60,7 +60,7 @@
       value : checkbox
     n2id:
       label : Id
-      type  : input
+      type  : string
       value :
     label:
       label : Label
@@ -75,7 +75,7 @@
       value : checkbox_group
     n2id:
       label : Id
-      type  : input
+      type  : string
       value :
     label:
       label : Label
@@ -94,7 +94,7 @@
       value : reference
     n2id:
       label : Id
-      type  : input
+      type  : string
       value :
     label:
       label : label
@@ -165,7 +165,7 @@
       value : array
     n2id:
       label : Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -200,7 +200,7 @@
       value: localized
     n2id:
       label : Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -215,7 +215,7 @@
       value : date
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -230,7 +230,7 @@
       value : file
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -245,7 +245,7 @@
       value : geometry
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -260,7 +260,7 @@
       value : hover_sound
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -275,7 +275,7 @@
       value : createdBy
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -290,7 +290,7 @@
       value : createdTime
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -305,7 +305,7 @@
       value : custom
     n2id:
       label: Id
-      type : input
+      type : string
       value :
     label:
       label : label
@@ -320,7 +320,7 @@
       value : textarea
     n2id:
       label : Id
-      type : input
+      type : string
       value : 
     label:
       label : label
