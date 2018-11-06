@@ -24,7 +24,9 @@ define(function(require) {
     , n2attributecreatedby = require('text!templates/snippet/n2attributecreatedby.json')
     , n2attributecreatedtime = require('text!templates/snippet/n2attributecreatedtime.json')
     , n2attributehoversound = require('text!templates/snippet/n2attributehoversound.json')
-  return {
+    , n2attributedate = require('text!templates/snippet/n2attributedate.json')
+   , n2attributedatehtml = require('text!templates/snippet/n2attributedate.html')
+    return {
       
       n2attributedefault : n2attributedefault
       , n2attributedefaulthtml: n2attributedefaulthtml
@@ -48,6 +50,7 @@ define(function(require) {
       , n2attributecreatedby : n2attributecreatedby + n2attributeboolean
       , n2attributecreatedtime : n2attributecreatedtime + n2attributeboolean
       , n2attributehoversound : n2attributehoversound + n2attributeboolean
-
+     , n2attributedate : n2attributedate + n2attributeboolean
+     , n2attributedatehtml : n2attributedatehtml
   }
 });

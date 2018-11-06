@@ -1,25 +1,5 @@
 [
   {
-    "title": "n2 attribute title",
-    "fields": {
-      "type": {
-        "label": "type",
-        "type": "string",
-        "value": "title"
-      },
-      "n2id": {
-        "label": "Id",
-        "type": "string",
-        "value": null
-      },
-      "label": {
-        "label": "Label",
-        "type": "input",
-        "value": "Label"
-      }
-    }
-  },
-  {
     "title": "n2 attribute string",
     "fields": {
       "type": {
@@ -69,26 +49,6 @@
           "City",
           "Village"
         ]
-      }
-    }
-  },
-  {
-    "title": "n2 attribute checkbox",
-    "fields": {
-      "type": {
-        "label": "type",
-        "type": "string",
-        "value": "checkbox"
-      },
-      "n2id": {
-        "label": "Id",
-        "type": "string",
-        "value": null
-      },
-      "label": {
-        "label": "Label",
-        "type": "input",
-        "value": "Label"
       }
     }
   },
@@ -257,26 +217,6 @@
     }
   },
   {
-    "title": "n2 attribute localized",
-    "fields": {
-      "type": {
-        "label": "type",
-        "type": "string",
-        "value": "localized"
-      },
-      "n2id": {
-        "label": "Id",
-        "type": "string",
-        "value": null
-      },
-      "label": {
-        "label": "label",
-        "type": "input",
-        "value": "Label"
-      }
-    }
-  },
-  {
     "title": "n2 attribute date",
     "fields": {
       "type": {
@@ -293,6 +233,11 @@
         "label": "label",
         "type": "input",
         "value": "Label"
+      },
+      "date": {
+        "label": "date",
+        "type": "datepicker",
+        "value": null
       }
     }
   },

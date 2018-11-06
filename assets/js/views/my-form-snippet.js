@@ -105,7 +105,10 @@ define([
           , type = $e.attr("data-type")
           , name = $e.attr("id");
 
-          switch(type) {
+            switch(type) {
+	    case "datepicker":
+		boundContext.model.setField(name, $e.val());
+		break;
             case "string":
                console.log($e.html())
                boundContext.model.setField(name, $e.html());

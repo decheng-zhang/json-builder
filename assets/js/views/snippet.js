@@ -7,8 +7,10 @@ define([
   , "text!templates/popover/popover-textarea-split.html"
     , "text!templates/popover/popover-checkbox.html"
     , "text!templates/popover/popover-string.html"
+    , "text!templates/popover/popover-datepicker.html"
   , "templates/snippet/snippet-templates"
-  , "bootstrap"
+    , "bootstrap"
+    ,"jquery-ui"
 ], function(
   $, _, Backbone
   , _PopoverMain
@@ -18,6 +20,7 @@ define([
   , _PopoverTextAreaSplit
     , _PopoverCheckbox
     , _PopoverString
+    ,_PopoverDatepicker
   , _snippetTemplates
 ){
   return Backbone.View.extend({
@@ -33,7 +36,8 @@ define([
               , "textarea" : _.template(_PopoverTextArea)
               , "textarea-split" : _.template(_PopoverTextAreaSplit)
               , "checkbox" : _.template(_PopoverCheckbox)
-	             ,"string" : _.template(_PopoverString)
+	      , "string" : _.template(_PopoverString)
+	      , "datepicker": _.template(_PopoverDatepicker)
 	  }
       }
     , render: function(withAttributes){
