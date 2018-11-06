@@ -4,13 +4,13 @@ A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/b
 
 ## Where can I see it in action?
 
-It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Builder/).
+It's hosted on github pages [here](https://qrafzv.github.io/json-builder/).
 
 ### Notes
 
 * For development & debugging using the `index-dev.html` 
   
-* Once done, change it back to  build for production using the [r.js](https://github.com/jrburke/r.js/). 
+* Once done, change it back to build for production using the [r.js](https://github.com/jrburke/r.js/). 
 
 * The full command is `r.js -o assets/js/lib/build.js` which should be run from the base directory.
 
