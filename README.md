@@ -12,7 +12,7 @@ It's hosted on github pages [here](https://qrafzv.github.io/json-builder/).
   
 * Once done, change it back to build for production using the [r.js](https://github.com/jrburke/r.js/). 
 
-* The full command is `r.js -o assets/js/lib/build.js` which should be run from the base directory.
+* The full command is `r.js -o build.js` which should be run from the assets/js/lib/ directory.
 
 * Then the program is deployed at `index.html`
 
