@@ -32,13 +32,17 @@ define([
 	  var jsonFromTextareaJson = JSON.parse(jsonFromTextarea);
           that.collection.readRapeSnippets(jsonFromTextareaJson);
       });
-      
+
       this.render();
 
     }
-    , handleLoadingSchema : function(model){
+      , handleLoadingSchema : function(model){
+	  PubSub.trigger("rapeSnippetsIncre");
+	  _.each(model.get("attributes"), function(){
+              PubSub.trigger("rapeSnippetsIncre");
+	  });
         this.collection.readRapeSnippets(model.toJSON());
-
+	
     }
 
     , render: function(){
@@ -50,6 +54,7 @@ define([
 
 	_.each(this.collection.renderAll(), function(snippet){
         that.$el.append(snippet);
+
       });
 	var partitedEleMandatory = _.filter(this.collection.renderAll(), function(e){
 	    if($(e).attr("data-title")

@@ -1,12 +1,13 @@
 define([
-       "jquery" , "underscore" , "backbone","bootstrap-waitingfor"
+       "jquery" , "underscore" , "backbone","helper/pubsub",
+       "bootstrap-waitingfor"
        , "models/snippet"
        , "collections/snippets"
     , "views/my-form-snippet"
     , "text!data/n2attributeboolean.json"
     , "text!data/n2.json" , "text!data/n2attributes.json"
   ], function(
-  $, _, Backbone, Waitingfor
+  $, _, Backbone, PubSub ,Waitingfor
   , SnippetModel
   , SnippetsCollection
     , MyFormSnippetView
@@ -64,10 +65,8 @@ define([
       }) === "undefined");
     }
     , readRapeSnippets: function(modelJSON){
-       // var waitingDialog = Waitingfor.constructDialog();
-        waitingDialog.show();
-        setTimeout(function(){waitingDialog.hide();},1500)
-	    this.reset();
+
+      this.reset();
       var rapeSnippets = modelJSON;
       var infoSnippetJson = JSON.parse(n2mandatoryJSON);
       var attrSnippetJson = JSON.parse(attributesJSON);
@@ -84,6 +83,7 @@ define([
           }
         })
         that.push(infoSnippet);
+        PubSub.trigger("rapeSnippetsDecre");
       });
       //adding attributes-Snippets
       var attrs = rapeSnippets["attributes"];
@@ -111,6 +111,7 @@ define([
           console.log("CAUSION: there is one or more types not defined");
         }
         that.push(candidateSnippetInstance);
+        PubSub.trigger("rapeSnippetsDecre");
       })
       //this.renderAll();
 

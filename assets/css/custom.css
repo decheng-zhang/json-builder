@@ -15,6 +15,17 @@ body {
 }
 
 
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: rgba(0, 60, 136, 0.4);
+    width: 0;
+    transition: width 250ms;
+}  
+
+
 #build #target div.component:first-of-type{
   max-width: 480px;
   height : auto;
