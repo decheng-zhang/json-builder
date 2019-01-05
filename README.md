@@ -1,12 +1,13 @@
 # Nunaliit Schema Builder
 
-A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/bootstrap/). 
+A Drag-and-drop json builder for [nunaliit project](https://github.com/GCRC/nunaliit). This project can be easily extended to accommodate any project, which requires a GUI profile building tool. 
 
 ## Where can I see it in action?
 
 It's hosted on github pages [here](https://qrafzv.github.io/json-builder/).
 
 ### Notes
+* The project uses Backbone.js, Underscore.js, bootstrap.js, Requirejs, etc. 
 
 * For development & debugging using the `index-dev.html` 
   
